@@ -6,7 +6,7 @@ const cockpit = (props) => {
   const assignedClasses = [];
   let btnClass = '';
 
-  if (props.showPersons) {
+  if (props.showsPersons) {
     btnClass = classes.Red;
   }
 

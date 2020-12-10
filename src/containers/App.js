@@ -39,7 +39,7 @@ class App extends Component {
     // const persons = this.state.persons.slice()
     const persons = [...this.state.persons];
     persons.splice(personIndex, 1);
-    this.setState({ persons: persons });
+    this.setState({ persons });
   };
 
   togglePersonHandler = () => {
