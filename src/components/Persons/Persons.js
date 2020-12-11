@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Person from './Person/Person';
 
 class Persons extends React.Component {
@@ -19,6 +20,10 @@ class Persons extends React.Component {
 
   componentDidUpdate() {
     console.log('[Persons.js] componentDidUpdate');
+  }
+
+  componentWillUnmount() {
+    console.log('[Persons.js] componentWillUnmount');
   }
 
   render() {
